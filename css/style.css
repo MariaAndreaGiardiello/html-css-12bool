@@ -7,11 +7,33 @@
 
 /*------COLUMNS STYLE------*/
 
-.col-1{
+[class*="col-"]{
     background-color: blue;
-    min-height: 50px;
+    min-height: 30px;
     text-align: center;
-    padding: 2px 2px;
+    border: 1px solid white;
+    color: white;
+}
+
+[class*="col-offset"]{
+    background-color: blue;
+    min-height: 30px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+.col-1, .col-2, .col-5, .col-12, .col-8, .col-6{
+    padding-top: 5px;
+}
+
+.nasted{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 251, 142);
+    border: none;
+    text-align: center;
 }
 
 
